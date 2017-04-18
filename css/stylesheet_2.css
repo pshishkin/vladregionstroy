@@ -31,39 +31,24 @@
 			font-weight: normal;
 	}
 
-	@font-face {
-			font-family: "HelveticaHeavy";
-			src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot");
-			src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/HelveticaHeavy/HelveticaHeavy.woff") format("woff"),
-			url("../fonts/HelveticaHeavy/HelveticaHeavy.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
-
-	@font-face {
-			font-family: "HelveticaMedium";
-			src: url("../fonts/HelveticaMedium/HelveticaMedium.eot");
-			src: url("../fonts/HelveticaMedium/HelveticaMedium.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/HelveticaMedium/HelveticaMedium.woff") format("woff"),
-			url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
 
 
+* {	font-family: Helvetica;  }
 
-* {	font-family: Helvetica; }
+body {width: 100%; margin: 0; }
 
-body {width: 100%; margin: 0;}
-
-.content {min-width: 500px; max-width: 1000px; margin-left: 100px; margin-right: 100px;}
+.content {min-width: 700px; max-width: 1000px; margin-left: 100px; margin-right: 100px;}
 
 header { 
 		display: block;
 		background-color: #272A31;
 		height: 70px;
 		}
+
+.header_part_1 {display: inline-block;
+				min-width: 500px; margin-right: 50px;}
+
+.header_part_2 {display: inline-block; vertical-align: top; margin-top: 10px; color: white;}
 
 .Header_name { 
 	display: inline-block;  
@@ -73,6 +58,8 @@ header {
 	color: white;
 	margin-top: 10px;
 } 
+
+.header_phone {font-size: 18px; margin-bottom: 8px;}
 
 .menu {
 	display: block;
@@ -89,7 +76,7 @@ header {
 
 .picture {display: block; height: auto; position: relative; width: 100%}
 
-.picture_main_photo {margin: 0; height: 400px; 
+.picture_main_photo {margin: 0; height: 350px; 
 					 overflow: hidden; 
 					}
 
@@ -99,21 +86,17 @@ img {
 }
 
 
-.abs {position: absolute; display: inline-block; width: 100%; left: 0; }
+/*.abs {position: absolute; display: inline-block; width: 100%; left: 0; }*/
 .picture_site_name {
-	 /* position: absolute; */
+	position: absolute;
 	display: inline-block;
 	width: 70%;
-	left: 100px; top: 50px;
+	left: 100px; top: 60px;
 	font-size: 50px;
-	color: green;
+	color: white;
 	vertical-align: top;
 }
 
-.picture_header_phone{ 
-	display: inline-block;
-	width: 25%;
-	}
 
 .picture_site_name .txt {
 	font-size: 14px;
