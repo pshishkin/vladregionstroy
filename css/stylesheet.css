@@ -1,0 +1,272 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+			font-family: "HelveticaRegular";
+			src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+			src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+			url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "HelveticaBold";
+			src: url("../fonts/HelveticaBold/HelveticaBold.eot");
+			src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"),
+			url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+	@font-face {
+			font-family: "HelveticaBlack";
+			src: url("../fonts/HelveticaBlack/HelveticaBlack.eot");
+			src: url("../fonts/HelveticaBlack/HelveticaBlack.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaBlack/HelveticaBlack.woff") format("woff"),
+			url("../fonts/HelveticaBlack/HelveticaBlack.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "HelveticaHeavy";
+			src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot");
+			src: url("../fonts/HelveticaHeavy/HelveticaHeavy.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaHeavy/HelveticaHeavy.woff") format("woff"),
+			url("../fonts/HelveticaHeavy/HelveticaHeavy.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "HelveticaMedium";
+			src: url("../fonts/HelveticaMedium/HelveticaMedium.eot");
+			src: url("../fonts/HelveticaMedium/HelveticaMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaMedium/HelveticaMedium.woff") format("woff"),
+			url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+
+* {	
+    font-family: Helvetica;
+}
+
+body {min-width: 400px; width: 100%;}
+header, footer {display: block;}
+
+.section {width: 100%; padding: 0 0 100px; position: relative;}
+ /* .mainwrap {display: block; width: 100%; float: left;} */
+
+
+div {
+	display: block;
+	float: left;
+}
+
+header { 
+		display: block;
+		background-color: #272A31;
+		height: 60px;
+		}
+
+.Header_name { 
+	display: inline-block;  
+	margin-right: 30px; 
+	font-size: 22px;
+	color: white;
+	margin-top: 10px;
+} 
+
+.menu {
+	display: inline-block;
+}
+.item {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+}
+
+/*
+.Header_phone { display: inline-block; width: 40%; text-align: left; max-width: 180px; height: 40px;}
+.Header_phone_ph { display: block; font-size: 18px;}
+.Header_phone_text {font-size: 12px;}
+*/
+
+.main_photo { display: block; margin-bottom: 50px;}
+.img {width: 100%}
+
+.repair {
+ display: inline-block;
+ width: 45%;
+ min-width: 350px;
+ max-width: 500px;
+ margin-bottom: 50px;
+}
+
+.landscaping {
+ display: inline-block;
+ width: 45%; 
+ min-width: 350px;
+ max-width: 500px;
+ margin-bottom: 50px;
+ }
+
+h1 {  
+	margin-bottom: 25px;
+	font-size: 28px;
+	vertical-align: top;
+}
+
+.first_col{
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: top;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	width: 30%
+}
+
+.sec_col {
+	font-size: 14px;
+	vertical-align: top;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+
+
+/*  */
+.lic {
+	background-color: #272A31;
+	height: 180px;
+	margin-bottom: 50px;
+}
+
+.lic_block {
+	display: inline-block;
+	width: 27%;
+	padding-right: 30px;
+	vertical-align: top;
+}
+
+.lic_header {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	line-height: 20px;
+	vertical-align: top;
+
+}
+
+.lic_content {
+	font-size: 13px;
+	color: white;
+	vertical-align: top;
+}
+
+/*  */
+.cont {
+	margin-bottom: 50px;
+}
+
+.cont_header {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.cont_content {
+	font-size: 13px;
+}
+
+
+img {
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+
+/*  */
+.map {
+	width: 40%;  
+	display: inline-block;
+	padding-right: 20px;
+	min-width: 400px;
+}
+
+.info {
+	display: inline-block;
+	width: 50%;
+	min-width: 400px;
+	vertical-align: top;
+
+}
+
+.txt {
+	margin-bottom: 60px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.phone {
+	font-size: 42px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.top {vertical-align: top;}
+.bottom {vertical-align: bottom;}
+
+.part {
+	margin-bottom: 50px;
+}
+
+
+footer {width: 100%; 
+		min-width: 240px; 
+		height: 100px; 
+		vertical-align: top;
+		clear:both;
+		background-color: #272A31;
+		margin-top: 30px;
+	}
+
+.footer_content { 
+	color: white; 
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.footer_content_block {
+	display: inline-block; 
+	width: 300px;  
+	padding-top: 20px;
+}
+
+.footer_content_comment {
+	display: inline-block; 
+	width: 300px;  
+	padding-top: 20px;
+}
+
+.footer_content_phone {
+	display: inline-block; 
+	width: 300px; 
+	padding-top: 20px; 
+	vertical-align: top; 
+}
+
+
+
+
+
